@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #212121;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.ticket {
+  font-size: 2rem;
+  margin: 20px auto;
+  height: 60px;
+  padding: 10px;
+  border: 2px solid #00c27e;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.message {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+button {
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #00c27e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #008f63;
+}
